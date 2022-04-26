@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color:#046582;
+}
+h1:before, h1:after {
+    
+    content:'\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+    text-align: center;
+}
+/* p:before, :after {
+    
+    content:'\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+    text-align: center;
+} */
+
+CardHeader {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:red;
+}
